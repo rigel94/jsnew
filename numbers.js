@@ -1,0 +1,33 @@
+let MyAge = 25;
+let MyBirthYear = 2005;
+let MyBirthDate = 24;
+let MyBrothers = 2;
+let MySisters = 2;
+let MyFamilyMembers = 10;
+let PriceToStudy = 50;
+let CurrentYear = 2025;
+let DollarValue = 96;
+let EuroValue = 100;
+let BitcoinValue = 50000;
+
+let MinusOneYear = CurrentYear - MyBirthYear;
+let MinusTwoYear = CurrentYear - MyAge;
+let BrotherSister = MyBrothers + MySisters;
+let EuroMultiplied = EuroValue * 1000;
+let DollarMultiplied = DollarValue * 2.5;
+let BitcoinDivided = BitcoinValue / 10000;
+let DollarWay = PriceToStudy / DollarValue;
+let FamilyCalculate = MyFamilyMembers - MyBrothers - MySisters;
+let MyAgeDivided = MyAge / 0;
+let MyAgeMinused = 35 - MyAge;
+
+console.log(MinusOneYear);
+console.log(MinusTwoYear);
+console.log(BrotherSister);
+console.log(EuroMultiplied);
+console.log(DollarMultiplied);
+console.log(BitcoinDivided);
+console.log(DollarWay);
+console.log(FamilyCalculate);
+console.log(MyAgeDivided);
+console.log(MyAgeMinused);
